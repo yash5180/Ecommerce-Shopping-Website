@@ -1,0 +1,147 @@
+.coupon-nav{
+    background-color: #FAE7CE;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 200px;
+    border-radius:20px;
+    display: flex;
+}
+#h1{
+    font-size: 60px;
+    margin-left: 20px;
+    color: #FF4764;
+    padding-top:30px;
+    font-weight: bolder;
+    font-family: Arial, sans-serif;
+}
+#h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    color: #554E51;
+    font-family: Arial, sans-serif;
+}
+.coupon{
+    display: flex;
+    background-color: white;
+    border-radius: 18px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 300px;
+    gap: 35px;
+    position: relative;
+    width: 650px;
+    height: 110px;
+}
+.coupon h3{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    line-height: 1.05;
+    color: #666;
+}
+.coupon h1{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #171A2B;
+}
+#para{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #777;
+    margin-left: 450px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#percentage{
+    width: 15%;
+    font-family: Arial, sans-serif;
+    font-size: 120px;
+    font-weight: 800;
+    color: #7b6cff;
+    text-align: center;
+}
+.Services{
+    display: flex;
+    gap: 25px;
+    margin: 30px;
+}
+.card{
+    width: 33.33%;
+    height: 240px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.content {
+    position: relative;
+    padding: 20px;
+}
+.card h2 {
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.card button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.card img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+.pharmacy{
+    background-color: #00BDB4;
+}
+.pets{
+    background-color: #F9C731;
+}
+.baby{
+    background-color: #BECFE1;
+}
+.Items {
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+}
+
+.Items > div {
+    text-align: center;
+}
+.images {
+    width: 150px;
+    height: 150px;
+    background-color: #ECF5FF;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.images img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.Items h4 {
+    margin-top: 10px;
+    font-size: 18px;
+}

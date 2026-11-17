@@ -1,0 +1,50 @@
+#btn{
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+#link{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+#link:hover{
+    color:blue;
+    background-color: beige;
+}
+#likebt{
+    font-size: 23px;
+    width: 50px;
+    position:absolute;
+    margin-left: 190px;
+    margin-top: 5px;
+}
+#pra{
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.productImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+}
+.Productcardcontainer{
+    padding: 20px;
+    width: 270px;
+    border: 1px solid #b3b3b3;
+}
+.Productcardcontainer:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+}

@@ -1,0 +1,94 @@
+.shop{
+    background-color: aliceblue;
+}
+#empt{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 50px;
+}
+.details{
+    display: flex;
+}
+
+.details img{
+    width: 80px;
+    height: 80px;
+}
+.details span{
+    margin-left: 20px;
+    align-self: center;
+}
+#pthead{
+    width: 380px;
+}
+.price {
+    text-align: center;
+}
+
+.cout{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0;
+    border: 1px solid grey;
+    background-color: white;
+    width: 120px;
+    border-radius:20px;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+.cout button{
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}
+.cout span {
+    width: 40px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    font-size: 16px;
+    padding: 5px;
+}
+#top{
+    margin-left: 50px;
+}
+#capt{
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#line{
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+table{
+    margin-left: 50px;
+    width: 40%;
+}
+
+#del-btn {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+#del-btn i{
+    background-color: aliceblue;
+    color: red;
+    font-size: 18px;
+    position: relative;
+    left: 80px;
+}
+.subtotal {
+    position: relative;
+    left: 60px;
+}

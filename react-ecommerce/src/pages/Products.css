@@ -1,0 +1,35 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+    margin-left: 20px;
+    padding: 40px;
+}
+#heading{
+    margin-left: 20px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin : 40px 0px;
+  }
+
+  .pagination button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .pagination button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  .pagination button.active {
+    background-color: #008CBA;
+    color: white;
+  }
